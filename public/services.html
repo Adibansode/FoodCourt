@@ -1,0 +1,155 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <style>
+            
+*{
+    margin: 0px;
+    padding: 0px;  
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#navbar{
+    position: relative;
+    display: flex;
+    font-family: sans-serif;
+    width: 100%;
+    height: 50px;
+    /* margin-bottom: 50px !important; */
+}
+
+#navbar::before{
+        content: "";
+        background-color: black;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.4;
+    
+}
+
+img{
+    height: 40px;
+    margin: 5px 10px;
+}
+#navbar ul{
+    margin: 10px;
+    display: flex;
+    list-style: none;
+}
+
+#navbar ul li{
+    /* color: white; */
+    font-size: 25px;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 13px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+.service h1{
+    /* margin-top: 220px; */
+    text-align: center;
+    font-size: 40px;
+}
+.service h2{
+    margin: 20px;
+    
+}
+
+.services{
+    /* margin-top: 3px; */
+    display: flex;
+   
+}
+.services .box{
+    border: 2px solid brown;
+    margin: 5px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color:  cornsilk;
+
+}
+.service img{
+    /* align-items: center; */
+    display: flex;
+    height: 280px;
+}
+.service .h-secondary{
+    /* display: flex; */
+    text-align:center ;
+    font-size: large;
+    font-size: 40px;
+    font-family: fantasy;
+}
+.service img{
+    margin: 20px 33px;
+}
+#client-section{
+   margin: 5px;
+}
+
+        </style>
+    </head>
+    <body>
+        <nav id="navbar" class=" navbar">
+            <div class="logo ">
+                <img src="/images/logo.png" alt="">
+            </div>
+            <ul class="v-class">
+                <li><a href="/">Home</a></li>
+                <li><a href="/services.html">Services</a></li>
+                <li><a href="/aboutus.html">About Us</a></li>
+                <li><a href="/contact.html">Contact Us</a></li>
+            </ul>
+    
+        </nav>
+
+        
+    <section class="service" id="services">
+        <h1>Our Services</h1>
+        <div class="services">
+            <div class="box">
+                <img src="/images/pizza.jpg" alt="">
+                <div class="h-secondary">Pizza</div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas officiis dolorem omnis deserunt!
+                    Necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eos cupiditate
+                    corrupti sapiente, cum minus consequatur dolorem excepturi vero, porro eaque minima modi illo cumque
+                    sunt deleniti expedita nemo atque?</h2>
+            </div>
+            <div class="box">
+                <img src="/images/burger.jpg" alt="">
+                <div class="h-secondary">Burger</div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas officiis dolorem omnis deserunt!
+                    Necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit atque qui rem illo
+                    ratione temporibus minima. Vero consequatur tenetur nam dolore autem consectetur unde tempore hic
+                    modi! Aperiam, voluptatibus adipisci! lor
+                </h2>
+            </div>
+            <div class="box">
+                <div class="random">
+
+                    <img src="/images/coffee.jpg" alt="">
+                </div>
+                <div class="h-secondary">Coffee</div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas officiis dolorem omnis deserunt!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam maiores odit sapiente dolores sunt
+                    laudantium quidem nulla autem atque pariatur voluptate, amet nesciunt blanditiis. Deserunt
+                    doloremque delectus rem ipsum placeat?</h2>
+            </div>
+        </div>
+    </section>
+
+    </body>
+</html>
